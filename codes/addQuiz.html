@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="addQuiz.css">
+    <link rel="stylesheet" href="header.css">
+    
+</head>
+<body>
+
+    
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-plus-circle"></i> Add Quiz</li>
+            <li><i class="fas fa-question-circle"></i> Question Bank</li>
+            <li class="logout"><i class="fas fa-sign-out-alt"></i> Logout</li>
+        </ul>
+    </nav>
+ <header>
+        <h1>Create Quiz</h1>
+    </header>
+    <form class="container" >
+        <label for="quizName">Quiz Name</label>
+        <input type="text" id="quizName" name="quizName" class="quizName">
+
+        <label for="questionNumber">Question Number</label>
+        <input type="text" id="questionNumber" name="questionNumber" class="qNumber">
+
+        <label for="quizDate">Quiz Date</label>
+        <input type="date" id="quizDate" name="quizDate" class="quizDate">
+
+        <label for="quizTime">Quiz Time In Min</label>
+        <input type="text" id="quizTime" name="quizTime" class="quizTime">
+
+        <div class="radio-group">
+            <p>How do you want to add questions?</p>
+            <label><input type="radio" name="questionType" value="manual"> Manually</label>
+            <label><input type="radio" name="questionType" value="random"> From Database</label>
+        </div>
+
+        <button type="button" class="create-btn">Create Quiz</button>
+
+    </form>
+
+</body>
+</html>

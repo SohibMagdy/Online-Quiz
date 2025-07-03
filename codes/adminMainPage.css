@@ -1,4 +1,8 @@
- * {
+/* ======= Updated CSS for Admin Main Page (Responsive + Underline Hover Effect) ======= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,13 +17,14 @@ body {
     padding: 20px;
 }
 
- header {
+/* header {
     text-align: center;
     padding: 20px;
     background: #ffffff;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
 }
 
 header h1 {
@@ -27,9 +32,9 @@ header h1 {
     font-weight: 700;
     color: #1a237e;
     letter-spacing: 1px;
-}
+} */
 
- nav {
+/* nav {
     background: #1a237e;
     padding: 20px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -46,6 +51,8 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -73,7 +80,7 @@ nav ul li::after {
     width: 0;
     height: 2px;
     background: #ffffff;
-    bottom: -2px;
+    bottom: 4px;
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.3s ease;
@@ -89,8 +96,7 @@ nav ul li.logout {
 
 nav ul li.logout:hover {
     background: #941c52;
-}
-
+} */
 
 .next-quiz, .past-quiz {
     margin: 40px auto;
@@ -139,8 +145,8 @@ nav ul li.logout:hover {
     opacity: 1;
 }
 
- @media (max-width: 768px) {
-    header h1 {
+@media (max-width: 768px) {
+    /* header h1 {
         font-size: 24px;
     }
 
@@ -158,7 +164,7 @@ nav ul li.logout:hover {
     nav ul li {
         font-size: 16px;
         padding: 10px 20px;
-    }
+    } */
 
     .next-quiz, .past-quiz {
         margin: 20px;
@@ -175,7 +181,7 @@ nav ul li.logout:hover {
     body {
         padding: 10px;
     }
-
+/* 
     header h1 {
         font-size: 20px;
     }
@@ -183,7 +189,7 @@ nav ul li.logout:hover {
     nav ul li {
         font-size: 14px;
         padding: 8px 15px;
-    }
+    } */
 
     .next-quiz, .past-quiz {
         margin: 15px;
@@ -191,8 +197,4 @@ nav ul li.logout:hover {
     }
 }
 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-
-
- /* all gooood */
+/* all good */
